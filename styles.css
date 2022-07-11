@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'globotipo_textoblack';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-black-webfont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'globotipo_textobold';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-bold-webfont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'globotipo_textoregular';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-regular-webfont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'globotipo_textolight';
+    src: url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-light-webfont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/viniciusvasc13/globotipo@master/globotipotexto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F1F2F2;
+}
+
+
+
+
+
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16px;
+
+}
+
+.rastro {
+    align-self: center;
+    width: 575.44px;
+    height: 33px;
+    margin-top: 12px;
+}
+
+.logo-globoplay {
+    
+    height: 40px;
+    
+    
+}
+
+main .homem-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.raio {
+    position: absolute;
+    opacity: 0.6;
+    mix-blend-mode: lighten;
+}
+
+.homem {
+
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
